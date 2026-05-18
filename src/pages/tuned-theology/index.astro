@@ -1,0 +1,30 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PostCard from '../../components/PostCard.astro';
+import Divider from '../../components/Divider.astro';
+import { getCollection } from 'astro:content';
+
+const posts = (await getCollection('tuned-theology', ({ data }) => !data.draft))
+  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+---
+
+<BaseLayout title="Tuned Theology" description="Liturgical seasons, sound doctrine, and biblical reflection.">
+  <div class="max-w-reading mx-auto px-6 py-12">
+    <header class="mb-8">
+      <h1 class="font-heading text-3xl md:text-4xl font-semibold text-byzantine">Tuned Theology</h1>
+      <p class="text-secondary mt-2">Liturgical seasons, sound doctrine, and biblical reflection.</p>
+    </header>
+    <Divider />
+    <div class="space-y-4">
+      {posts.map(post => (
+        <PostCard
+          title={post.data.title}
+          date={post.data.date}
+          description={post.data.description}
+          href={`/tuned-theology/${post.id.replace(/\.md$/, '')}`}
+        />
+      ))}
+    </div>
+    {posts.length === 0 && <p class="text-secondary italic">No posts yet. Check back soon.</p>}
+  </div>
+</BaseLayout>

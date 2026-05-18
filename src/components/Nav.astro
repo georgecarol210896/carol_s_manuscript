@@ -1,0 +1,30 @@
+---
+const currentPath = Astro.url.pathname;
+const links = [
+  { href: '/', label: 'Home' },
+  { href: '/tuned-theology', label: 'Tuned Theology' },
+  { href: '/startup-starters', label: 'Startup Starters' },
+  { href: '/about', label: 'About' },
+];
+---
+
+<nav class="border-b border-border bg-surface/80 backdrop-blur-sm">
+  <div class="max-w-reading mx-auto px-6 py-4 flex flex-col sm:flex-row items-center gap-3 sm:gap-6">
+    <a href="/" class="font-accent text-2xl text-primary no-underline hover:text-gold transition-colors">
+      Carol's Manuscript
+    </a>
+    <div class="flex gap-4 text-sm text-secondary">
+      {links.map(link => (
+        <a
+          href={link.href}
+          class:list={[
+            'no-underline hover:text-gold transition-colors',
+            currentPath === link.href ? 'text-gold font-medium' : '',
+          ]}
+        >
+          {link.label}
+        </a>
+      ))}
+    </div>
+  </div>
+</nav>

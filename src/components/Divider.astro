@@ -1,0 +1,19 @@
+---
+interface Props {
+  class?: string;
+}
+const { class: className = '' } = Astro.props;
+---
+
+<div class:list={['flex items-center justify-center my-10', className]}>
+  <svg width="200" height="20" viewBox="0 0 200 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path
+      d="M10 10 C30 4, 50 16, 70 10 C90 4, 110 16, 130 10 C150 4, 170 16, 190 10"
+      stroke="#C5A46D"
+      stroke-width="1.5"
+      fill="none"
+      stroke-linecap="round"
+    />
+    <circle cx="100" cy="10" r="2.5" fill="#C5A46D" />
+  </svg>
+</div>

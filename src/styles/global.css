@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-parchment text-primary font-body leading-relaxed;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading;
+  }
+
+  code, pre {
+    @apply font-code;
+  }
+
+  pre {
+    @apply bg-surface border border-border rounded-lg p-4 overflow-x-auto text-sm;
+  }
+
+  code {
+    @apply text-sm;
+  }
+
+  p code {
+    @apply bg-surface border border-border rounded px-1.5 py-0.5;
+  }
+
+  blockquote {
+    @apply border-l-2 border-gold pl-4 italic text-secondary;
+  }
+
+  a {
+    @apply text-gold underline underline-offset-2 hover:text-copper transition-colors;
+  }
+}
+
+.prose h1 { @apply text-3xl md:text-4xl font-heading font-semibold mb-6 mt-10; }
+.prose h2 { @apply text-2xl md:text-3xl font-heading font-semibold mb-4 mt-8; }
+.prose h3 { @apply text-xl md:text-2xl font-heading font-medium mb-3 mt-6; }
+.prose p { @apply mb-5 leading-relaxed; }
+.prose ul { @apply list-disc pl-6 mb-5 space-y-1; }
+.prose ol { @apply list-decimal pl-6 mb-5 space-y-1; }
+.prose hr { @apply border-border my-10; }
+.prose img { @apply rounded-lg my-6; }
