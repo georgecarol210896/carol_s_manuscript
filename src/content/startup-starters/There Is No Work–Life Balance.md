@@ -1,4 +1,15 @@
-There Is No Work–Life Balance
+---
+title: "There Is No Work–Life Balance"
+date: 2026-05-18
+draft: false
+tags:
+  - startups
+  - founders
+  - culture
+categories:
+  - startup-starters
+description: "Why work–life balance is the wrong framework for startup culture, and why rhythmic intelligence and integration are what actually sustain founders."
+---
 
 There is a lie modern corporate culture keeps repeating with polished confidence:
 that somewhere in adulthood there exists a perfect scale where work sits on one side and life sits on the other, peacefully balanced like a courtroom symbol.
@@ -9,7 +20,7 @@ They live in storms.
 
 A startup is not a profession alone. It is an emotional climate. It enters conversations during dinner, interrupts sleep with product ideas, transforms coffee shops into boardrooms, and converts uncertainty into daily oxygen. Founders do not carry startups merely in laptops. They carry them in nervous systems.
 
-So the phrase “work–life balance” sounds elegant, but deeply disconnected from entrepreneurial reality.
+So the phrase "work–life balance" sounds elegant, but deeply disconnected from entrepreneurial reality.
 
 There is no balance.
 
@@ -53,7 +64,7 @@ The mythology of hustle culture destroyed many brilliant minds because it worshi
 Even rockets require staging.
 
 Founders often say:
-“We need hungry people.”
+"We need hungry people."
 
 But hunger without rhythm becomes fire without containment.
 

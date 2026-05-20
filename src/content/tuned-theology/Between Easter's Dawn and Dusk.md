@@ -1,3 +1,16 @@
+---
+title: "Between Easter's Dawn and Dusk"
+date: 2026-05-18
+draft: false
+tags:
+  - theology
+  - easter
+  - resurrection
+categories:
+  - tuned-theology
+description: "A meditation on the hidden hours between Easter morning and evening — Christ's descent, proclamation, and the quiet mystery that separates Mary's encounter from Thomas's."
+---
+
 Easter morning may contain one of the quietest mysteries in Scripture.
 
 Not the empty tomb.
@@ -8,7 +21,7 @@ But the hours in between.
 
 At dawn, Mary Magdalene reaches toward the risen Christ, and He tells her:
 
-“Do not touch me, for I have not yet ascended to the Father.”
+"Do not touch me, for I have not yet ascended to the Father."
 
 Yet before the day fully closes, Christ stands among the disciples and later allows Thomas to touch His wounds.
 
