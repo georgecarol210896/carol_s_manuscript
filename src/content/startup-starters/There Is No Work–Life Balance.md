@@ -1,6 +1,6 @@
 ---
 title: "There Is No Work–Life Balance"
-date: 2026-05-18
+date: 2026-05-20
 draft: false
 tags:
   - startups
