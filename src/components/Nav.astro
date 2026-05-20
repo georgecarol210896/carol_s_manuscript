@@ -1,4 +1,6 @@
 ---
+import { Image } from 'astro:assets';
+import portrait from '../assets/georgecarol_portrait.jpeg';
 const base = import.meta.env.BASE_URL;
 const currentPath = Astro.url.pathname;
 const links = [
@@ -11,8 +13,17 @@ const links = [
 
 <nav class="border-b border-border bg-surface/80 backdrop-blur-sm">
   <div class="max-w-reading mx-auto px-6 py-4 flex flex-col sm:flex-row items-center gap-3 sm:gap-6">
-    <a href={base} class="font-accent text-2xl text-primary no-underline hover:text-gold transition-colors">
-      Carol's Manuscript
+    <a href={base} class="flex items-center gap-3 no-underline hover:opacity-80 transition-opacity">
+      <Image
+        src={portrait}
+        alt="Carol"
+        width={40}
+        height={40}
+        class="rounded-full object-cover w-10 h-10 flex-shrink-0"
+      />
+      <span class="font-accent text-2xl text-primary">
+        Carol's Manuscript
+      </span>
     </a>
     <div class="flex gap-4 text-sm text-secondary">
       {links.map(link => (

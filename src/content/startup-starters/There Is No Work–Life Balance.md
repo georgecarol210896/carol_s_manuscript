@@ -8,6 +8,7 @@ tags:
   - culture
 categories:
   - startup-starters
+image: ../../assets/There Is No Work–Life Balance.jpeg
 description: "Why work–life balance is the wrong framework for startup culture, and why rhythmic intelligence and integration are what actually sustain founders."
 ---
 
