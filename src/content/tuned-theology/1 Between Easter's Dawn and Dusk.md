@@ -1,6 +1,6 @@
 ---
 title: "Between Easter's Dawn and Dusk"
-date: 2026-05-18
+date: 2026-05-20
 draft: false
 tags:
   - theology
