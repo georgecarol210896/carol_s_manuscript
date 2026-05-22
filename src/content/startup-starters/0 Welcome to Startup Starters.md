@@ -7,6 +7,7 @@ tags:
   - engineering
 categories:
   - startup-starters
+image: ../../assets/startup-starters/0 Welcome to Startup Starters.jpeg
 description: "An introduction to the Startup Starters section — practical writing on building, shipping, and scaling."
 ---
 

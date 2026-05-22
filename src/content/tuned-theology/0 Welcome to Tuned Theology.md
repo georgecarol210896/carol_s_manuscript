@@ -7,6 +7,7 @@ tags:
   - welcome
 categories:
   - tuned-theology
+image: ../../assets/tuned-theology/0 Welcome to Tuned Theology.jpeg
 description: "An introduction to the Tuned Theology section — reflections rooted in Scripture, shaped by the Christian calendar."
 ---
 

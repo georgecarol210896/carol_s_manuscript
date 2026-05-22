@@ -8,7 +8,7 @@ tags:
   - resurrection
 categories:
   - tuned-theology
-image: ../../assets/Between Easter's Dawn and Dusk.jpeg
+image: ../../assets/tuned-theology/1 Between Easter's Dawn and Dusk.jpeg
 description: "A meditation on the hidden hours between Easter morning and evening — Christ's descent, proclamation, and the quiet mystery that separates Mary's encounter from Thomas's."
 ---
 
