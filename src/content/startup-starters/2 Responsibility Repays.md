@@ -8,7 +8,7 @@ tags:
   - culture
 categories:
   - startup-starters
-image: ../../assets/startup-starters/2 Responsibility Repays.jpeg
+image: ../../assets/startup-starters/2 Responsibility Repays.jpg
 description: "In the Kingdom of God, responsibility is never wasted. The world rewards visibility, titles, and applause. God rewards faithfulness, stewardship, and integrity in unseen places. A startup may hire for skill first, but enduring builders are recognized by responsibility.
 "
 ---

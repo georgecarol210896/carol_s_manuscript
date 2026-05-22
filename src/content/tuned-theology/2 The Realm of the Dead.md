@@ -8,7 +8,7 @@ tags:
   - resurrection
 categories:
   - tuned-theology
-image: ../../assets/tuned-theology/2 The Realm of the Dead.jpeg
+image: ../../assets/tuned-theology/2 The Realm of the Dead.jpg
 description: "Exploring the biblical understanding of the realm of the dead, Christ’s descent after crucifixion, proclamation of victory, Abraham’s bosom, paradise, and the separation revealed in the parable of Lazarus and the rich man.
 "
 ---
